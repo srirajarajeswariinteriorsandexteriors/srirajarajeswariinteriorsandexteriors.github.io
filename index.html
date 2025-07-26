@@ -1,0 +1,94 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sri Raja Rajeswari Interior & Exterior</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">Sri Raja Rajeswari</a>
+      <nav class="site-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Polygranite Sheets</h1>
+      <p>Exceptional Interior & Exterior Cladding Solutions</p>
+    </div>
+  </section>
+
+  <section id="services" class="services section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="service1.jpg" alt="Interior Cladding">
+          <h3>Interior Cladding</h3>
+          <p>Stylish and durable finishes for walls and ceilings.</p>
+        </div>
+        <div class="service-card">
+          <img src="service2.jpg" alt="Exterior Cladding">
+          <h3>Exterior Cladding</h3>
+          <p>Robust exterior solutions to withstand the elements.</p>
+        </div>
+        <div class="service-card">
+          <img src="service3.jpg" alt="Custom Fabrication">
+          <h3>Custom Fabrication</h3>
+          <p>Bespoke shapes and designs to meet your vision.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="project1.jpg" alt="">
+        <img src="project2.jpg" alt="">
+        <img src="project3.jpg" alt="">
+        <img src="project4.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> Ward No.9, D.No.17-1-37/2, Seethampeta, Revenue, near Chinna Anjaneya Swami Temple, Mulagoyya Center, Rajamahendravaram, Andhra Pradesh 533101</p>
+      <p><strong>Email:</strong> info@rajarajeswari.in</p>
+      <p><strong>Phone:</strong> +91 7569021119</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      &copy; 2025 Sri Raja Rajeswari Interior & Exterior
+    </div>
+  </footer>
+
+  <script>
+    // mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navList = document.querySelector('.nav-list');
+    navToggle.addEventListener('click', () => {
+      navList.classList.toggle('nav-list--visible');
+    });
+  </script>
+</body>
+</html>
